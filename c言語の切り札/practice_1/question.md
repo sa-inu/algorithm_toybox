@@ -2,7 +2,7 @@
 ![](https://i.gyazo.com/dbab8df0272fc74bbae3d146f95cb70a.png)
 ![](https://i.gyazo.com/ee412b5845edc868f4c8b7a7e55a3c39.png)
 
-設問 プログラム中の[FillMe: x]に入れる正しい答えを、解答群の中から選べ。
+# 設問 プログラム中の[FillMe: x]に入れる正しい答えを、解答群の中から選べ。
 
 aに関する解答群
 ア invtype == 1
@@ -20,8 +20,7 @@ b, cに関する解答群
 オ in[j][CSZ - i - 1]
 カ in[j][RSZ - i - 1]
 
-==================================================
-
+```
 #include <stdio.h>
 #define RSZ 6
 #define CSZ 8
@@ -72,3 +71,4 @@ int main(int argc, char const *argv[]) {
   invert(4, src);
   return 0;
 }
+```
