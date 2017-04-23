@@ -1,24 +1,26 @@
 プログラムの説明
+
 ![](https://i.gyazo.com/dbab8df0272fc74bbae3d146f95cb70a.png)
+
 ![](https://i.gyazo.com/ee412b5845edc868f4c8b7a7e55a3c39.png)
 
 # 設問 プログラム中の[FillMe: x]に入れる正しい答えを、解答群の中から選べ。
 
 aに関する解答群
-ア invtype == 1
-イ invtype == 2
-ウ invtype == 3
-エ invtype == 4
-オ (invtype == 1) || (invtype == 2)
-カ (invtype == 3) || (invtype == 4)
+- ア invtype == 1
+- イ invtype == 2
+- ウ invtype == 3
+- エ invtype == 4
+- オ (invtype == 1) || (invtype == 2)
+- カ (invtype == 3) || (invtype == 4)
 
 b, cに関する解答群
-ア in[RSZ - i - 1][j]
-イ in[RSZ - j - 1][i]
-ウ in[i][CSZ - j - 1]
-エ in[i][RSZ - j - 1]
-オ in[j][CSZ - i - 1]
-カ in[j][RSZ - i - 1]
+- ア in[RSZ - i - 1][j]
+- イ in[RSZ - j - 1][i]
+- ウ in[i][CSZ - j - 1]
+- エ in[i][RSZ - j - 1]
+- オ in[j][CSZ - i - 1]
+- カ in[j][RSZ - i - 1]
 
 ```
 #include <stdio.h>
