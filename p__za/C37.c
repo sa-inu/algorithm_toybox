@@ -16,3 +16,6 @@ int main(int argc, char const *argv[]) {
 
   return 0;
 }
+
+/* REF: http://www.mm2d.net/main/prog/c/time-01.html */
+/* REF: http://linuxjm.osdn.jp/html/LDP_man-pages/man3/strftime.3.html */
