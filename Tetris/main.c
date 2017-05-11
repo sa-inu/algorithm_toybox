@@ -328,6 +328,13 @@ int main(int argc, char const *argv[]) {
             field[minoY + i][minoX + j] |=
               minoShapes[minoType][minoAngle][i][j];
         deleteLine();
+        for (int i = 1; i < FIELD_WIDTH - 1; i++) {
+          if (field[0][i] == TRUE) {
+            system("cls");
+            printf("----END----\n");
+            return 1;
+          }
+        }
         resetMino();
       } else
         minoY++;
